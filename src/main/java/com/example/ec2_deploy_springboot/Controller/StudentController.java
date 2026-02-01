@@ -19,6 +19,17 @@ public class StudentController {
         this.studentService = studentService;
     }
 
+
+
+
+
+
+
+
+
+
+
+    
     // REGISTER
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody Student student) {
