@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = "http://18.60.42.250/reactapp/")
+@CrossOrigin(origins = "*")
 public class StudentController {
 
     private final StudentService studentService;
