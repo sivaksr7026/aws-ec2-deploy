@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = "http://40.192.36.161/")
+@CrossOrigin(origins = "http://40.192.36.161")
 public class StudentController {
 
     private final StudentService studentService;
